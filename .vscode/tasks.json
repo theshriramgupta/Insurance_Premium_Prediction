@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Generate Project Tree",
+      "type": "shell",
+      "command": "tree -I \"venv|__pycache__|.git\" > structure.txt",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
